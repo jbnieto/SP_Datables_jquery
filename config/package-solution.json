@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "pn-p-crud-sample-client-side-solution",
+    "id": "e5fa9447-013e-4d12-8d80-c4b4d24a0665",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/pn-p-crud-sample.spapp"
+  }
+}

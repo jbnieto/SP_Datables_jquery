@@ -1,0 +1,6 @@
+{
+  "workingDir": "./temp/deploy/",
+  "account": "azurecdntestspf",
+  "container": "cdnendpoint",
+  "accessKey": "Dp6dS3KIEShl5I0WDdNz+vXm0GFFl2QrgPLDJRzfFrXjWmNu9/uZfsihBFVb3FKLtBVv1bMODod/yNcNguqqug=="
+}

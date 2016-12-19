@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/pnpcrudsample/PnpcrudsampleWebPart.js",
+      "manifest": "./src/webparts/pnpcrudsample/PnpcrudsampleWebPart.manifest.json",
+      "outputPath": "./dist/pnpcrudsample.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/datatablesdrop5/Datatablesdrop5WebPart.js",
+      "manifest": "./src/webparts/datatablesdrop5/Datatablesdrop5WebPart.manifest.json",
+      "outputPath": "./dist/datatablesdrop-5.bundle.js"
+    }
+  ],
+  "externals": {
+    "@microsoft/sp-client-base": "node_modules/@microsoft/sp-client-base/dist/sp-client-base.js",
+    "@microsoft/sp-client-preview": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js",
+    "@microsoft/sp-webpart-base": "node_modules/@microsoft/sp-webpart-base/dist/sp-webpart-base.js",
+    "@microsoft/sp-lodash-subset": "node_modules/@microsoft/sp-lodash-subset/dist/sp-lodash-subset.js",
+    "office-ui-fabric-react": "node_modules/office-ui-fabric-react/dist/office-ui-fabric-react.js",
+    "react": "node_modules/react/dist/react.min.js",
+    "react-dom": "node_modules/react-dom/dist/react-dom.min.js",
+    "react-dom/server": "node_modules/react-dom/dist/react-dom-server.min.js",
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    },
+    "datatables": {
+      "path": "https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js",
+      "globalName": "jQuery",
+      "globalDependencies": [
+        "jquery"
+      ]
+    }
+  },
+  "localizedResources": {
+    "pnpcrudsampleStrings": "webparts/pnpcrudsample/loc/{locale}.js",
+    "datatablesdrop5Strings": "webparts/datatablesdrop5/loc/{locale}.js"
+  }
+}

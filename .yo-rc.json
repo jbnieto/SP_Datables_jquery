@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "pn-p-crud-sample",
+    "libraryId": "e5fa9447-013e-4d12-8d80-c4b4d24a0665",
+    "framework": "none"
+  }
+}
